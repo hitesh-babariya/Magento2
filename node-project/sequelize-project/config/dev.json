@@ -1,0 +1,13 @@
+{
+    "dev": {
+      "name": "node-structure-demo",
+      "port": 3000,
+      "mode": "dev",
+      "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "database": "testdb"
+      }
+    }
+  }

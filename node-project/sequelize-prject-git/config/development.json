@@ -1,0 +1,12 @@
+{
+    "development": {
+        "name": "node-structure-demo",
+        "port": 3000,
+        "username": "root",
+        "password": "root",
+        "database": "testdb",
+        "host": "localhost",
+        "dialect": "mysql",
+        "operatorsAliases": 0
+      }
+}
