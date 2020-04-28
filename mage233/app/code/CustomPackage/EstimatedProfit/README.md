@@ -15,4 +15,4 @@ sudo chmod -R 777 var pub generated
 
 2) By composer :
 
-composer require custompackage/module-estimated-profit:1.0.0
+composer require custompackage/module-estimated-profit
