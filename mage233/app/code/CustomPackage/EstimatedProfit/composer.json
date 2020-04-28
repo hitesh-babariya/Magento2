@@ -1,0 +1,45 @@
+{
+   "name": "custompackage/module-estimated-profit",
+   "description": "Magneto 2 module to check estimated profit",
+   "type": "magento2-module",
+   "version": "1.0.0",
+   "extra": {
+        "map": [
+            [
+                "*",
+                "CustomPackage/EstimatedProfit/"
+            ]
+        ]
+    },
+   "repositories": [
+      {
+        "type": "composer",
+        "url": "https://github.com/hitesh-babariya/Estimated-Profit"
+      }
+   ],
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+   "license": [
+     "OSL-3.0",
+     "AFL-3.0"
+    ],
+   "require": {
+    "php": "~7.1.3|~7.2.0|~7.3.0",
+    "magento/framework": "~100.0.4"
+   },
+   "authors": [
+    {
+      "name": "Hitesh Babariya",
+      "email": "babariyahiteshb@gmail.com",      
+      "role": "Sr.Magento2 Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CustomPackage\\EstimatedProfit\\": ""
+    }
+  }
+}
